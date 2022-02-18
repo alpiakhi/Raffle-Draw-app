@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raffle</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center my-3 display-4">Give Away Raffle draw App</h1>
+        <div class="row">
+            <div class="col-md -6">
+                <div class="form-group">
+                    <label for="inp">Enter all names</label>
+                    <textarea  id="inp" class="form-control" rows="14">
+
+                    </textarea>
+                </div>
+                <div>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Show all Student</button>
+
+                    <div class="collpase  my-4" id="collapseExample">
+                        <div class="card card-body">
+                            <ul class="list-group" id="name-list">
+                                <li class="list-group-item">one</li>
+                                <li class="list-group-item">one</li>
+                                <li class="list-group-item">one</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label>Output Display</label>
+                <div class="card card-body text-center"></div>
+                <h2 id="display" >Display</h2>
+            </div>
+            <div class="text-center">
+                <button class="btn btn-success mt-4" id="give-a-try" type="button">Give A Try</button>
+            </div>
+            <ul class="list-group-item my-4">
+                <li class="list-group-item">
+                    <strong>First winner: <span id="first-position"></span></strong>
+                </li>
+                <li class="list-group-item">
+                    <strong>Second winner: <span id="second-position"></span></strong>
+                </li>
+                <li class="list-group-item">
+                    <strong>third winner: <span id="third-position"></span></strong>
+                </li>
+            </ul>
+        </div>
+    </div> 
+</div> 
+</body>
+</html>
